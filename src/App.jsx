@@ -25,7 +25,7 @@ function App() {
           return { ...prevTimer, milliseconds: newMilliseconds };
         }
       });
-    }, 1); // Intervalo de 1 milissegundo para atualizar os milissegundos
+    }, 1); 
   };
 
   const stopTimer = () => {
